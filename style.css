@@ -1,0 +1,59 @@
+* {
+	background-color: #00FFF0;
+	text-align: center;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+h1 {
+	text-transform: uppercase;
+	text-shadow: 0px 10px 3px black;
+	color: #00FF19;
+	font-size: 3em;
+}
+
+#obama {
+	width: 35%;
+	margin: auto;
+	position: relative;
+	transform: translateY(-19%);
+}
+
+#button {
+	width: 20%;
+	margin: auto;
+}
+
+#cam {
+	width: 50%;
+	margin: auto;
+}
+
+#circle {
+	background-color: transparent;
+	position: absolute;
+	top: 27%;
+	left: 12%;
+	width: 25%;
+}
+
+#rotating {
+	background-color: transparent;
+	position: absolute;
+	top: 2%;
+	left: 59%;
+	width: 37%;
+}
+
+#text {
+	background-color: transparent;
+	position: absolute;
+	top: 80%;
+	left: 1%;
+	width: 37%;
+}
+
